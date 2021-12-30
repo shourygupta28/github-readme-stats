@@ -82,7 +82,7 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
   const STATS = {
     stars: {
       icon: icons.star,
-      label: "Stars Gained",
+      label: "Total Stars",
       value: totalStars,
       id: "stars",
     },
